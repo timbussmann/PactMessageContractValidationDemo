@@ -1,0 +1,30 @@
+{
+  "consumer": {
+    "name": "consumer"
+  },
+  "interactions": [
+    {
+      "contents": {
+        "content": "{\"OrderId\":\"06d469ca-ec1a-4ef5-816d-a13b6f5f398e\"}",
+        "contentType": "application/json",
+        "encoded": false
+      },
+      "description": "a message",
+      "key": "de544ab788b3f88a",
+      "pending": false,
+      "type": "Asynchronous/Messages"
+    }
+  ],
+  "metadata": {
+    "pactRust": {
+      "ffi": "0.4.3",
+      "models": "1.0.9"
+    },
+    "pactSpecification": {
+      "version": "4.0"
+    }
+  },
+  "provider": {
+    "name": "provider"
+  }
+}
